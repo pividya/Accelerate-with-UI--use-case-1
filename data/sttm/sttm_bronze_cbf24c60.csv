@@ -1,0 +1,6 @@
+source_schema,source_table,source_column,target_schema,target_table,target_column,transformation_type,transformation_logic
+landing,stores,store_id,bronze,stores,store_id,copy,source_column as is
+landing,stores,store_name,bronze,stores,store_name,copy,source_column as is
+landing,stores,region,bronze,stores,region,copy,source_column as is
+landing,stores,city,bronze,stores,city,copy,source_column as is
+landing,stores,state,bronze,stores,state,copy,source_column as is

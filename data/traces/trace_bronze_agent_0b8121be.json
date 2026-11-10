@@ -1,0 +1,20 @@
+[
+  {
+    "agent": "bronze_agent",
+    "run_id": "0b8121be-a386-44ff-ae7a-90550941ee41",
+    "input": {
+      "file_count": 1,
+      "sttm_path": "C:\\Users\\asmeeran\\Downloads\\IDAM_syed\\IDAMPorg\\data\\sttm\\sttm_bronze_0b8121be.csv"
+    },
+    "plan": "",
+    "reasoning_steps": [],
+    "output": {
+      "outputs": [
+        "C:\\Users\\asmeeran\\Downloads\\IDAM_syed\\IDAMPorg\\data\\bronze_layer\\stores_bronze.parquet"
+      ]
+    },
+    "duration": 0.836,
+    "status": "success",
+    "tools_called": []
+  }
+]

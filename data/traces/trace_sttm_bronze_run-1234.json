@@ -1,0 +1,32 @@
+[
+  {
+    "agent": "sttm_bronze",
+    "run_id": "run-1234",
+    "input": {
+      "task": "Generate bronze STTM"
+    },
+    "plan": "",
+    "reasoning_steps": [],
+    "output": {
+      "sttm_path": ""
+    },
+    "duration": 0.03,
+    "status": "success",
+    "tools_called": []
+  },
+  {
+    "agent": "sttm_bronze",
+    "run_id": "run-1234",
+    "input": {
+      "task": "Generate bronze STTM"
+    },
+    "plan": "",
+    "reasoning_steps": [],
+    "output": {
+      "sttm_path": "C:\\Users\\syes\\.copilot\\IDAMPorg\\data\\sttm\\sttm_bronze_run-1234.csv"
+    },
+    "duration": 0.007,
+    "status": "success",
+    "tools_called": []
+  }
+]

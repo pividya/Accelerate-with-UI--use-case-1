@@ -1,0 +1,17 @@
+[
+  {
+    "agent": "supervisor_phase4",
+    "run_id": "0b8121be-a386-44ff-ae7a-90550941ee41",
+    "input": {
+      "phase_goal": "Run phase 4: gold load and generate report"
+    },
+    "plan": "[{\"tool\": \"gold_agent_tool\", \"output\": {\"error\": \"gold sttm missing\"}}, {\"tool\": \"reporter_agent_tool\", \"output\": {\"error\": \"gold outputs missing\"}}]",
+    "reasoning_steps": [],
+    "output": {
+      "summary": "[{\"tool\": \"gold_agent_tool\", \"output\": {\"error\": \"gold sttm missing\"}}, {\"tool\": \"reporter_agent_tool\", \"output\": {\"error\": \"gold outputs missing\"}}]"
+    },
+    "duration": 0.004,
+    "status": "success",
+    "tools_called": []
+  }
+]

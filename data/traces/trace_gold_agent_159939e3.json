@@ -1,0 +1,38 @@
+[
+  {
+    "agent": "gold_agent",
+    "run_id": "159939e3-6d9c-44ea-b0d1-52670ee4c89e",
+    "started_at": "2026-07-13T05:05:46.357408+00:00",
+    "input": {
+      "input_files": [
+        "C:\\Users\\asmeeran\\Downloads\\IDAMPorg\\IDAMPorg\\data\\silver_layer\\stores_silver.parquet"
+      ],
+      "sttm_path": "C:\\Users\\asmeeran\\Downloads\\IDAMPorg\\IDAMPorg\\data\\sttm\\sttm_gold_159939e3.csv"
+    },
+    "plan": "",
+    "tool_calls": [],
+    "reasoning_steps": [],
+    "output": {},
+    "duration_seconds": 2.844,
+    "status": "failed",
+    "error": "'target_table'"
+  },
+  {
+    "agent": "gold_agent",
+    "run_id": "159939e3-6d9c-44ea-b0d1-52670ee4c89e",
+    "started_at": "2026-07-13T05:10:01.408008+00:00",
+    "input": {
+      "input_files": [
+        "C:\\Users\\asmeeran\\Downloads\\IDAMPorg\\IDAMPorg\\data\\silver_layer\\stores_silver.parquet"
+      ],
+      "sttm_path": "C:\\Users\\asmeeran\\Downloads\\IDAMPorg\\IDAMPorg\\data\\sttm\\sttm_gold_159939e3.csv"
+    },
+    "plan": "",
+    "tool_calls": [],
+    "reasoning_steps": [],
+    "output": {},
+    "duration_seconds": 7.036,
+    "status": "failed",
+    "error": "'target_table'"
+  }
+]

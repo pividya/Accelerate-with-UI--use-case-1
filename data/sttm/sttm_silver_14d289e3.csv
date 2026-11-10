@@ -1,0 +1,10 @@
+source_column,target_column,transformation_type,transformation_logic
+,pk_stores_silver_id,Indirect,Auto-generated sequential surrogate primary key starting from 1
+store_id,store_id,Cast,"Cast store_id to string, handle nulls by setting empty string"
+store_name,store_name,Cast and Cleanse,"Cast to string, trim whitespace, replace nulls with empty string"
+region,region,Cast and Cleanse,"Cast to string, trim whitespace, replace nulls with empty string"
+city,city,Cast and Cleanse,"Cast to string, trim whitespace, replace nulls with empty string"
+state,state,Cast and Cleanse,"Cast to string, trim whitespace, replace nulls with empty string"
+_load_timestamp,_load_timestamp,Standardise Date,"Parse to ISO 8601 UTC datetime format, replace nulls with '1970-01-01T00:00:00Z'"
+_source_file,_source_file,Cast and Cleanse,"Cast to string, trim whitespace, replace nulls with empty string"
+,pk_stores_silver_id,Deduplication,Remove duplicate records based on all columns excluding pk_stores_silver_id

@@ -1,0 +1,2 @@
+source_schema,source_table,source_column,target_schema,target_table,target_column,transformation_type,transformation_logic
+bronze,sample,col,bronze,sample,col,direct,pass-through

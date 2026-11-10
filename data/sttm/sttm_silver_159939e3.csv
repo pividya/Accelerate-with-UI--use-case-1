@@ -1,0 +1,9 @@
+source_column,target_column,transformation_type,transformation_logic
+,pk_stores_silver_id,Indirect,Auto-generated sequential surrogate primary key starting from 1
+store_id,store_id,Direct,Type cast to string
+store_name,store_name,Direct,"Trim whitespaces, handle nulls with default ''"
+region,region,Direct,"Trim whitespaces, handle nulls with default ''"
+city,city,Direct,"Trim whitespaces, handle nulls with default ''"
+state,state,Direct,"Trim whitespaces, handle nulls with default ''"
+_load_timestamp,load_timestamp,Direct,"Standardise to ISO 8601 format, handle nulls with default '1970-01-01T00:00:00Z'"
+_source_file,source_file,Direct,"Trim whitespaces, handle nulls with default ''"

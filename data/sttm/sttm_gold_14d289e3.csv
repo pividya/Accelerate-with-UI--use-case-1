@@ -1,0 +1,6 @@
+source_table,source_column,target_table,target_column,transformation_type,transformation_logic
+stores,,gold_top_performing_category_by_region,pk_gold_id,Indirect,Auto-generated sequential surrogate primary key starting from 1
+stores,region,gold_top_performing_category_by_region,region,Direct,Passthrough from silver stores.region
+sales,product_category,gold_top_performing_category_by_region,product_category,Direct,Passthrough from silver sales.product_category
+sales,total_sales_revenue,gold_top_performing_category_by_region,total_sales_revenue,Direct,Passthrough from silver sales.total_sales_revenue
+stores,store_id,gold_top_performing_category_by_region,store_id,Direct,"Passthrough from silver stores.store_id, join key"

@@ -1,0 +1,2 @@
+{"timestamp": "2026-07-24T11:08:00.314474+00:00", "run_id": "64a0319c-000f-4133-9ab8-034f1aea8c34", "agent": "orchestrator", "action": "pipeline_started", "business_intent": "Show sales trend"}
+{"timestamp": "2026-07-24T11:08:00.481167+00:00", "run_id": "64a0319c-000f-4133-9ab8-034f1aea8c34", "agent": "orchestrator", "action": "phase1_supervisor_failed", "error": "Function must have a docstring if description not provided."}

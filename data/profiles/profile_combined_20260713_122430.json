@@ -1,0 +1,108 @@
+{
+  "files": [
+    "C:\\Users\\asmeeran\\Downloads\\IDAMPorg\\IDAMPorg\\data\\landing\\stores.csv"
+  ],
+  "datasets": {
+    "stores": {
+      "file": "C:\\Users\\asmeeran\\Downloads\\IDAMPorg\\IDAMPorg\\data\\landing\\stores.csv",
+      "shape": {
+        "rows": 10,
+        "columns": 5
+      },
+      "columns": {
+        "store_id": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 10,
+          "sample_values": [
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05"
+          ]
+        },
+        "store_name": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 10,
+          "sample_values": [
+            "Downtown Flagship",
+            "Westfield Mall",
+            "Harbor View",
+            "Peach Tree Center",
+            "Bayfront Store"
+          ]
+        },
+        "region": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 4,
+          "sample_values": [
+            "Northeast",
+            "Northeast",
+            "Northeast",
+            "Southeast",
+            "Southeast"
+          ]
+        },
+        "city": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 10,
+          "sample_values": [
+            "New York",
+            "Boston",
+            "Philadelphia",
+            "Atlanta",
+            "Miami"
+          ]
+        },
+        "state": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 9,
+          "sample_values": [
+            "NY",
+            "MA",
+            "PA",
+            "GA",
+            "FL"
+          ]
+        }
+      }
+    }
+  },
+  "analysis": {
+    "semantic_meanings": {
+      "stores": {
+        "store_id": "Unique identifier for each store",
+        "store_name": "Descriptive name of the store",
+        "region": "Broad geographical region where the store is located",
+        "city": "City where the store is located",
+        "state": "State code (abbreviated) where the store is located"
+      }
+    },
+    "join_keys": [
+      {
+        "left_dataset": "stores",
+        "left_column": "store_id",
+        "right_dataset": null,
+        "right_column": null,
+        "confidence": "high"
+      }
+    ],
+    "quality_notes": [
+      "All columns have 0% null values, indicating no missing data.",
+      "The 'store_id' column has 10 unique values corresponding exactly to the row count, confirming it as a unique key.",
+      "The 'region' column has a low cardinality with only 4 unique values across 10 rows; likely a categorical grouping.",
+      "The 'city' and 'state' columns have 10 and 9 unique values respectively, suggesting that one of the states is represented with two entries, which should be further validated for consistency.",
+      "All columns have consistent data types (object) as expected for categorical and string data."
+    ]
+  }
+}

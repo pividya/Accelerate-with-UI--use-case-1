@@ -1,0 +1,41 @@
+{
+  "datasets": {
+    "sample_upload.csv": {
+      "file": "C:\\Users\\syes\\.copilot\\IDAMPorg\\data\\landing\\sample_upload.csv",
+      "shape": {
+        "rows": 2,
+        "columns": 2
+      },
+      "columns": {
+        "store_id": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 2,
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.5
+        },
+        "sales": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 2,
+          "min": 10.0,
+          "max": 20.0,
+          "mean": 15.0
+        }
+      }
+    }
+  },
+  "files": [
+    "sample_upload.csv"
+  ],
+  "analysis": {
+    "semantic_meanings": {},
+    "join_keys": [],
+    "quality_notes": [
+      "Profile computed from pandas fallback."
+    ]
+  }
+}

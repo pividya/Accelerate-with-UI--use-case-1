@@ -1,0 +1,17 @@
+[
+  {
+    "agent": "sttm_silver",
+    "run_id": "0b8121be-a386-44ff-ae7a-90550941ee41",
+    "input": {
+      "task": "Run phase 2: bronze load then generate Silver STTM"
+    },
+    "plan": "",
+    "reasoning_steps": [],
+    "output": {
+      "sttm_path": ""
+    },
+    "duration": 0.002,
+    "status": "success",
+    "tools_called": []
+  }
+]

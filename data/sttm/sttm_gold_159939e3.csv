@@ -1,0 +1,9 @@
+source_column,target_column,transformation_type,transformation_logic
+,pk_gold_id,Indirect,Auto-generated sequential surrogate primary key starting from 1
+store_id,store_id,Direct,Passthrough from source
+store_name,store_name,Direct,Passthrough from source
+region,region,Direct,Passthrough from source
+city,city,Direct,Passthrough from source
+state,state,Direct,Passthrough from source
+load_timestamp,load_timestamp,Direct,Passthrough from source
+source_file,source_file,Direct,Passthrough from source

@@ -1,0 +1,9 @@
+source_column,target_column,transformation_type,transformation_logic
+,pk_stores_silver_id,Indirect,Auto-generated sequential surrogate primary key starting from 1
+store_id,store_id,Direct,Type cast to string
+store_name,store_name,Direct,"Trim whitespace, replace null with empty string, type cast to string"
+region,region,Direct,"Trim whitespace, replace null with empty string, type cast to string"
+city,city,Direct,"Trim whitespace, replace null with empty string, type cast to string"
+state,state,Direct,"Trim whitespace, replace null with empty string, type cast to string"
+_load_timestamp,load_timestamp,Direct,"Standardise to ISO 8601 format, type cast to timestamp"
+_source_file,source_file,Direct,"Trim whitespace, replace null with empty string, type cast to string"
